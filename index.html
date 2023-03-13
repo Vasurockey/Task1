@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <center>
+          <div class="center">
+            <div class="image">
+              <img src="index.png" class="logo" />
+            </div>
+            <div class="gap">
+              <h2 class="sign">Sign in</h2>
+            </div>
+            <div class="gap">Use your Google Account</div>
+            <div class="mylinks">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Email Or Phone"
+                  required
+                  class="myinput"
+                />
+              </div>
+              <div class="mail">
+                <a href="#">Forget mail?</a>
+              </div>
+            </div>
+            <div class="learnmore">
+              <div>
+                <p>Not your computer? Use a Private Window to sign in.</p>
+              </div>
+              <div class="learn">
+                <a href="#" class="learn-more">Learn more</a>
+              </div>
+            </div>
+            <div class="next">
+              <div>
+                <a href="#" id="myButton">Create account</a>
+              </div>
+              <div>
+                <button class="btn">Next</button>
+              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+    </div>
+    <script>
+      document.getElementById("myButton").onclick = function () {
+        window.open("signin.html");
+      };
+    </script>
+  </body>
+</html>

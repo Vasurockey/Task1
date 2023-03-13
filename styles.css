@@ -1,0 +1,180 @@
+.center {
+  border-radius: 5px;
+  border: 2px;
+  border-color: silver;
+  border-style: solid;
+  width: 500px;
+  height: 600px;
+  margin-top: 50px;
+}
+.overalldiv {
+  border-radius: 5px;
+  border: 2px;
+  border-color: silver;
+  border-style: solid;
+  width: 600px;
+  height: 700px;
+}
+
+.myinput {
+  width: 330px;
+  height: 40px;
+  text-align: left;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 4px;
+}
+.myinput:hover:active :default {
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 4px;
+}
+
+.mylinks {
+  display: grid;
+  grid-template-rows: 50px 30px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.learnmore {
+  display: grid;
+  grid-template-rows: 30px 20px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  padding-right: 25px;
+}
+.next {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 5px;
+}
+.logo {
+  width: 70px;
+  height: 30px;
+}
+.sign {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 23px;
+}
+
+.mail {
+  margin-right: 230px;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+}
+.image {
+  margin-top: 30px;
+}
+.learn {
+  max-height: 230px;
+  margin-top: 10px;
+}
+.learn-more {
+  padding-right: 240px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.btn {
+  background-color: rgb(0, 132, 255);
+  color: whitesmoke;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 2px;
+  border: none;
+}
+.gap {
+  margin-top: 20px;
+}
+
+.textinput {
+  display: grid;
+  grid-template-rows: 65px 65px 65px 65px;
+}
+
+.sign-input {
+  width: 350px;
+  height: 35px;
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 2px solid rgb(211, 205, 209);
+}
+
+.pass-input {
+  display: grid;
+  grid-template-rows: 65px 65px;
+}
+.gap-link {
+  padding-right: 110px;
+  margin-top: 10px;
+}
+.label {
+  padding-right: 230px;
+  margin-top: 30px;
+}
+.move-front {
+  padding-left: 100px;
+}
+.logo-gap {
+  display: grid;
+  grid-template-rows: 60px 60px;
+  padding-right: 70px;
+}
+.account {
+  margin-bottom: 20px;
+}
+.google-logo {
+  width: 70px;
+  height: 30px;
+  padding-right: 70px;
+}
+.image-logo {
+  margin-top: 20px;
+  padding-right: 135px;
+}
+.gmail {
+  position: relative;
+  display: block;
+  top: -27px;
+  left: 120px;
+  color: rgb(80, 77, 77);
+  cursor: default;
+}
+.link1 {
+  font-size: 13px;
+
+  padding-right: 120px;
+}
+.email {
+  display: grid;
+  grid-template-rows: 20px 20px 20px;
+}
+.username {
+  width: 350px;
+  height: 35px;
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 2px solid rgb(211, 205, 209);
+}
+.User {
+  display: grid;
+  grid-template-rows: 30px 10px;
+}
+.link2 {
+  font-size: 13px;
+
+  padding-right: 60px;
+}
+h2 {
+  padding-left: 10px;
+}
